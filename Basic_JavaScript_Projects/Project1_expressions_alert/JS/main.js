@@ -4,8 +4,8 @@ document.write("Hello World!"); // calling document.write function to display He
 var A = "This is a string"; // Set a variable to a string
 document.write(A); // Called the variable using document.write
 var myTeam = "Knicks"; // Set a variable to a string
-window.alert(myTeam); called the variable using window.alert
-document.write("Brandon's Team is the Knicks!"); Utilize document.write to display string
+window.alert(myTeam); //called the variable using window.alert
+document.write("Brandon's Team is the Knicks!"); // Utilize document.write to display string
 
 document.write("Knicks" + " are my " + "favorite team."); // Concatenate three strings
 
