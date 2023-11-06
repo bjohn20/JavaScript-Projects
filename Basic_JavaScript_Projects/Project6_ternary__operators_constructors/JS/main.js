@@ -1,7 +1,7 @@
 function Ride_Function() {
   // Define the function that will be called
   var Height, Can_Ride; // Assign variables
-  Height = document.getElementById("height").value; // assign variables to method
+  Height = document.getElementById("Height").value; // assign variables to method
   Can_Ride = Height < 52 ? "You are too short" : "You are tall enough"; //Assign variable to terenary operator
   document.getElementById("Ride").innerHTML = Can_Ride + " to ride."; // Use method to to attach variable value to html
 }
