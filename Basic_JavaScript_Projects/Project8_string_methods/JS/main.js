@@ -22,7 +22,7 @@ function seekFunc() {
 function myString() {
   // Define the function
   var num = 98; // Declare the variable
-  document.getElementById("to_string").innerHTML = num; // method that obtains the id of "to_string" and inserts the num variable into the html
+  document.getElementById("to_string").innerHTML = num.toString(); // method that obtains the id of "to_string" and inserts the num variable that calls the toString method into the html
 }
 
 function myPrecision() {
