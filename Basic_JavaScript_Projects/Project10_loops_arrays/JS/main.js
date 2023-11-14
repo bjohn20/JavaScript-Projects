@@ -1,3 +1,15 @@
+function Call_Loop() {
+  // Define the function
+  var Digit = ""; // Declare variable Digit
+  var X = 1; // Declare variable X
+  while (X < 15) {
+    // While loop with a condition that will execute code
+    Digit += "<br />" + X; // The string "<br />" and X is appended to the variable Digit
+    X++; // X is incremented throughout the iteration
+  }
+  document.getElementById("Loop").innerHTML = Digit;
+}
+
 var text = "This is my text that I'm doing for this exercise"; // Declared text variable with a string
 var length = text.length; // Declared variable with that assigns the length of the string text to the variable length
 
