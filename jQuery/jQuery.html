@@ -7,19 +7,27 @@
     <title>Document</title>
   </head>
   <script>
+    // Utilizes jQuery to modify the DOM as soon as the page is ready
     $(document).ready(function () {
+      // Uses the append method on the html to insert code containing body, p, and div tags
       $("html").append(
         "<body>\
-              <div id='container'>\
-                <div id='inner'>\
-                  <h1>Basic jQuery</h1>\
-                  <p id='1'>Paragraph 1</p>\
-                  <p id='2'>Paragragh 2</p>\
-                  <p id='3'>Paragraph 3</p>\
-                </div>\
+            <div id='container'>\
+              <div id='inner'>\
+                <h1>Basic jQuery</h1>\
+                <p id='1'>Paragraph 1</p>\
+                <p id='2'>Paragragh 2</p>\
+                <p id='3'>Paragraph 3</p>\
               </div>\
-            </body>\"
+            </div>\
+        </body>"
       );
+      // jQuery to apply css to the id='2' and change the color to red
+      $("#2").css({ color: "red" });
+      // Use jQuery to apply a click method to the id='3' so when the paragraph is clicked it will hide the paragraph
+      $("#3").click(function () {
+        $("h1").hide();
+      });
     });
   </script>
 </html>
