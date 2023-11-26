@@ -2,9 +2,9 @@
 This repository store coding projects in the Tech Academy's Javascript course.
 
 # Projects
-*[Pizza Mednu](https://github.com/bjohn20/JavaScript-Projects/tree/main/Pizza_Project)
-*[Tic-Tac-Toe Game](https://github.com/bjohn20/JavaScript-Projects/tree/main/TicTacToe)
-*[Calculator](https://github.com/bjohn20/JavaScript-Projects/tree/main/HTML_Calculator)
+-[Pizza Mednu](https://github.com/bjohn20/JavaScript-Projects/tree/main/Pizza_Project)
+-[Tic-Tac-Toe Game](https://github.com/bjohn20/JavaScript-Projects/tree/main/TicTacToe)
+-[Calculator](https://github.com/bjohn20/JavaScript-Projects/tree/main/HTML_Calculator)
 
 ## Pizza Menu
 This project is a user-friendly pizza ordering system that allows customers to customize their pizzas with a variety of toppings and crust options. The system then calculates the price of the order based on the selected options and displays it to the user
