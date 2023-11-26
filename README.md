@@ -2,7 +2,7 @@
 This repository store coding projects in the Tech Academy's Javascript course.
 
 # Projects
-- [Pizza Mednu](https://github.com/bjohn20/JavaScript-Projects/tree/main/Pizza_Project)
+- [Pizza Menu](https://github.com/bjohn20/JavaScript-Projects/tree/main/Pizza_Project)
 - [Tic-Tac-Toe Game](https://github.com/bjohn20/JavaScript-Projects/tree/main/TicTacToe)
 - [Calculator](https://github.com/bjohn20/JavaScript-Projects/tree/main/HTML_Calculator)
 
